@@ -369,7 +369,7 @@ defaults write com.apple.DiskUtility DUDebugMenuEnabled -bool true
 defaults write com.apple.terminal StringEncodings -array 4
 
 # Use a modified version of the Pro theme by default in Terminal.app
-open "$HOME/init/Custom.terminal"
+open "$HOME/Custom.terminal"
 sleep 1 # Wait a bit to make sure the theme is loaded
 defaults write com.apple.Terminal "Default Window Settings" -string "Custom.terminal"
 defaults write com.apple.Terminal "Startup Window Settings" -string "Custom.terminal"
