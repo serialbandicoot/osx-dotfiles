@@ -1,4 +1,4 @@
-# Mathias’s dotfiles
+# Phil's dotfiles (based on Matthias')
 
 ## Installation
 
