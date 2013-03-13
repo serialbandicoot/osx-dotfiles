@@ -40,3 +40,6 @@ complete -o "nospace" -W "Finder Dock Mail Safari iTunes iCal Address\ Book Syst
 
 # Add path for Android SDK
 export PATH=${PATH}:/usr/local/android-sdk-macosx/tools:/usr/local/android-sdk-macosx/platform-tools
+
+# add sbin path
+export PATH=${PATH}:/usr/local/sbin
