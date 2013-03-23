@@ -39,7 +39,7 @@ complete -o "nospace" -W "Finder Dock Mail Safari iTunes iCal Address\ Book Syst
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
 # Add path for Android SDK
-export PATH=${PATH}:/usr/local/android-sdk-macosx/tools:/usr/local/android-sdk-macosx/platform-tools
+export PATH=${PATH}:~/bin/android-sdk-macosx/tools:~/bin/android-sdk-macosx/platform-tools
 
 # add sbin path
 export PATH=${PATH}:/usr/local/sbin
