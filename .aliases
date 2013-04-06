@@ -20,6 +20,7 @@ alias o="open"
 alias oo="open ."
 alias flushdns="sudo dscacheutil -flushcache"
 alias openports="sudo lsof -i -P | grep -i 'listen'"
+alias cpu="top -o cpu"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
